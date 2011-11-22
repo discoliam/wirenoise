@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<!--
+		Supersized - Fullscreen Slideshow jQuery Plugin
+		Version : 3.2.5
+		Site	: www.buildinternet.com/project/supersized
+		
+		Author	: Sam Dunn
+		Company : One Mighty Roar (www.onemightyroar.com)
+		License : MIT License / GPL License
+	-->
+
+	<head>
+
+		<title>Supersized - Full Screen Background Slideshow jQuery Plugin</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+		<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		
+		<script type="text/javascript" src="js/supersized.3.2.5.min.js"></script>
+		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+		
+		<script type="text/javascript">
+			
+			jQuery(function($){
+				
+  				$.supersized({
+					
+  					// Custom
+  					progress_bar			: 0, 
+  					mousr_scrub			: 0, 
+  					autoplay			:0,
+				
+  					// Functionality
+  					slide_interval          :   3000,		// Length between transitions
+  					transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+  					transition_speed		:	700,		// Speed of transition
+															   
+  					// Components							
+  					slide_links				:	'false',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+  					slides 					:  	[			// Slideshow Images
+  														{image : '/photos/joss-look-railride.jpg', title : 'Test'},
+  														{image : '/photos/bp-bath-vert-lipslide.jpg', title : 'Test 2'}, 
+  														{image : '/photos/bp-bath-trails-x-up.jpg', title : 'Test 3'} 
+  												]
+
+  				});
+  				
+          // About
+          
+          $("a.about").click(function() {
+           
+           if( $("#about").hasClass("open")){
+             $("#about").animate({left: -280});
+             $("#about").removeClass("open");             
+           } else {
+             $("#about").animate({left: 15});
+             $("#about").addClass("open");             
+           } 
+            return false;
+          });
+  				
+  				
+		    });
+		    
+		</script>
+		
+	</head>
+	
+	<style type="text/css">
+		.block{
+			background:url('img/bg-black.png');
+			padding:10px;
+			color:#aaa;
+			font:11px Helvetica, Arial, sans-serif;
+			width: 250px;
+			position: absolute;
+		}
+		
+		#header{
+			top: 15px;
+			left: 15px;
+		}
+		
+		#nav{
+			top: 79px;
+			left: 15px;
+		}
+		
+		#about{
+			top: 174px;
+			left: -280px;
+		}
+		
+		
+		h1{font:18px Helvetica, Arial, sans-serif;color: #fff}
+		
+		a{color: #eee;text-decoration: none;}
+		a:hover{text-decoration: underline;}
+		
+		
+		
+	</style>
+
+<body>
+
+	
+	<div id="header" class="block">
+		<h1>Wirenoise</h1>
+		<p>Photographs by Robin Pearson</p>
+	</div>
+	
+	<div id="nav" class="block">
+		<ul>
+			<li><a href="#">Collection 1</a></li>
+			<li><a href="#">Collection 2</a></li>
+			<li><a href="#">Collection 3</a></li>
+			<li><a href="#" class="about">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+	
+	<div id="about" class="block">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	
+
+
+	<!--Arrow Navigation-->
+	<a id="prevslide" class="load-item"></a>
+	<a id="nextslide" class="load-item"></a>
+	
+
+
+	
+
+</body>
+</html>

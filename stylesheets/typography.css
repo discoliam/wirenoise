@@ -1,0 +1,92 @@
+/* -------------- =TYPOGRAPHY -------------- */
+/* Font size, family, style etc */
+
+/* -------------- =FONT FAMILY -------------- */
+
+body, textarea, input {
+  font-family:"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif ;
+  word-spacing:2px;
+}
+
+/* -------------- =FONT SIZES -------------- */
+
+/*9px*/
+{font-size:9px;}
+
+/* 10px */ 
+{font-size:10px;}
+
+/* 11px */
+{font-size:10px;}
+
+/* 12px */
+{font-size:12px;}
+
+/* 13px */
+{font-size:13px;}
+
+/* 14px */
+{font-size:14px;}
+
+/* 15px */
+{font-size:15px;}
+
+/* 16px */
+{font-size:16px;}
+
+/* 17px */
+{font-size:17px;}
+
+/* 18px */
+{font-size:18px;}
+
+/* 19px */
+{font-size:19px;}
+
+/* 20px */
+{font-size:20px;}
+
+/* 21px */
+{font-size:21px;}
+
+/* 22px */
+{font-size:22px;}
+
+/* 23px */
+{font-size:23px;}
+
+/* 24px */
+{font-size:24px;}
+
+/* 30px */
+{font-size:3px;}
+
+/*36px */
+{font-size:36px;}
+
+/* -------------- =FONT STYLING -------------- */
+
+/* Bold */
+{font-weight: bold;}
+
+/* Italic */
+{font-style: italic;}
+
+/* Underline */
+{text-decoration: underline;}
+
+/* Normal */
+{font-weight: normal !important;font-style: normal !important;}
+
+{font-weight: normal !important;}
+
+{font-style: normal !important;}
+
+/* -------------- =LINE HEIGHT -------------- */
+{line-height: ;}
+
+/* -------------- =LETTER SPACING -------------- */
+{letter-spacing: ;}
+
+/* -------------- =WORD SPACING -------------- */
+{word-spacing: ;}

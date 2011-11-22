@@ -1,0 +1,18 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Liam Richardson
+  discoliam.com
+  @discoliam
+  
+  Robin Pearson
+  wirenosie.co.uk
+  @robinpho
+  
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, 
+  Software: Supersized
+  Doctype:HTML5
