@@ -4,8 +4,8 @@
 /* -------------- =FONT FAMILY -------------- */
 
 body, textarea, input {
-  font-family:"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif ;
-  word-spacing:2px;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
 }
 
 /* -------------- =FONT SIZES -------------- */
@@ -32,7 +32,7 @@ body, textarea, input {
 {font-size:15px;}
 
 /* 16px */
-{font-size:16px;}
+h2{font-size:16px;}
 
 /* 17px */
 {font-size:17px;}
@@ -44,7 +44,7 @@ body, textarea, input {
 {font-size:19px;}
 
 /* 20px */
-{font-size:20px;}
+h1{font-size:20px;}
 
 /* 21px */
 {font-size:21px;}
@@ -83,7 +83,7 @@ body, textarea, input {
 {font-style: normal !important;}
 
 /* -------------- =LINE HEIGHT -------------- */
-{line-height: ;}
+p, li{line-height:1.4 ;}
 
 /* -------------- =LETTER SPACING -------------- */
 {letter-spacing: ;}
