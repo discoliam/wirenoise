@@ -1,0 +1,26 @@
+<script>
+   $(document).ready(function () {
+
+     $.supersized({
+
+       // Custom
+       progress_bar  : 0, 
+       mousr_scrub   : 0, 
+       autoplay      :0,
+
+       // Functionality
+       slide_interval    :  3000,
+       transition        :  1,
+       transition_speed  :  700,
+
+       // Components
+       slide_links       :  'false',
+       slides            :  [
+        {image : '/images/photos/bike-1.jpg', title : 'Bike 1'},
+        {image : '/images/photos/bike-2.jpg', title : 'Bike 2'},
+        {image : '/images/photos/bike-3.jpg', title : 'Bike 3'}
+       ]
+
+     });
+   });
+ </script>
