@@ -18,7 +18,10 @@ body{
   overflow: hidden;
 }
 
-
+.site-title{
+  position: relative;
+  left: -11px;
+}
 
 header, nav, article, section, div{
   width: 212px;

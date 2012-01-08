@@ -34,21 +34,17 @@ ul li{
   list-style-type: none;
 }
 
-
-/* -------------- =HEADER -------------- */
-
-
-
-/* -------------- =FOOTER -------------- */
-
-/* -------------- =ERRORS -------------- */
-
-
 /* ------------- =IMAGE REPLACEMENT  --------------- */
- {
+.site-title{
   overflow: hidden;
   text-align: left;
   display: block;
   line-height:0;
   text-indent: -1000em;
+}
+
+.site-title{
+  background: url(/images/logo.png) repeat;
+  width: 235px;
+  height: 65px;
 }
